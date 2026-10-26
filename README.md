@@ -5,6 +5,8 @@
 A lightweight **Retrieval-Augmented Generation (RAG)** framework built in Python. This framework has been developed for the `2025 LLM Hackathon for Applications in Materials Science & Chemistry` by the team `code4catlysis-KFUPM`.
 It uses a CSV file of domain documents, creates a vector store (`FAISS` + `Sentence-Transformers` embeddings) stored under the `doc/` folder, and answers natural language questions by retrieving relevant chunks and passing them as context to an **OpenAI LLM**.
 
+Replicated from: https://github.com/ashikiut/CaMEL-RAG with video presentation at: https://www.youtube.com/watch?v=YJQV9wsZaN8
+
 ---
 
 ## Repository Structure
